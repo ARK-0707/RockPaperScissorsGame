@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(images/controller.jpg);
+  color: #FFEAD2;
+  font-family: 'Handjet', cursive;
+  
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+  font-size: 300%;
+}
+
+.title {
+  font-size: 500%;
+  margin-bottom: 4rem;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center; /* centers vertically */
+}
+
+button {
+  background-color: transparent;
+  color: #FFEAD2;
+
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.move-button {
+  margin: 80px 50px ;
+  border-color: #FF9B9B;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.move-button:hover {
+  background-color: #FF9B9B;
+}
+
+.move-icon {
+  background-size: 200px 200px;
+}
+
+.reset-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.Reset {
+  border: none;
+  font-family: 'Handjet', cursive;
+  background-color: #FF9B9B;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 20px;
+  color: black;
+  width: 150px;
+  height: 40px;
+}
+
+.Reset:hover {
+  background-color: #df6f6f;
+  cursor: pointer;
+}
+
+p {
+  text-align:center;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 740px) {
+  .title {
+      font-size: 500%;
+      font-weight : 700;
+      margin-bottom: 2rem;
+      word-spacing: 10px;
+      letter-spacing: 5px;
+  }
+  
+  h1 {
+      text-align: center;
+      margin: 2.5rem;
+      font-size: 300%;
+      
+  }
+  
+  .button-container {
+      display: flex;
+      justify-content: space-around;
+      
+  }
+
+  button {
+      background-color: transparent;
+      color: #FFEAD2;
+      
+  }
+
+  .move-button {
+      margin: 30px 10px 50px 15px;
+      width: 150px;
+      height: 150px;
+      
+  }
+  
+  p {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 550;
+  }
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+  .title {
+      font-size: 500%;
+      font-weight : 700;
+      margin-bottom: 2rem;
+      word-spacing: 10px;
+      letter-spacing: 5px;
+  }
+  
+  h1 {
+      text-align: center;
+      margin: 2.5rem;
+      font-size: 300%;
+      
+  }
+  
+  .button-container {
+      display: flex;
+      justify-content: space-around;
+      
+  }
+
+  button {
+      background-color: transparent;
+      color: #FFEAD2;
+      
+  }
+
+  .move-button {
+      margin: auto;
+      margin-bottom: 50px;
+      width: 100px;
+      height: 100px;
+      
+  }
+  
+  p {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 550;
+  }
+
+
+}
+
+@media screen and (max-width: 360px) {
+  .title {
+      font-size: 500%;
+      font-weight : 700;
+      margin-bottom: 2rem;
+      word-spacing: 10px;
+      letter-spacing: 5px;
+  }
+  
+  h1 {
+      text-align: center;
+      margin: 2.5rem;
+      font-size: 300%;
+      
+  }
+  
+  .button-container {
+      display: flex;
+      justify-content: space-around;
+      
+  }
+
+  button {
+      background-color: transparent;
+      color: #FFEAD2;
+      
+  }
+
+  .move-button {
+      margin: auto;
+      margin-bottom: 50px;
+      width: 80px;
+      height: 80px;
+      
+  }
+  
+  p {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 550;
+  }
+
+  .move-icon {
+    background-size: 10px 10px;
+    
+  }
+
+
+}
